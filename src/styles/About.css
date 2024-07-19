@@ -1,0 +1,28 @@
+.about-bio {
+    position: absolute;
+    margin: 2px 4px;
+    padding: 2px 6px;
+    top: 8rem;
+    left: 28rem;
+    max-width: 600px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 18px;
+    color:wheat;
+    font-weight: bolder;
+    background: rgb(27, 152, 190,1);
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.2);
+
+}
+@media(max-width:900px){
+    .about-bio{
+        position: fixed;
+        left: 2rem;
+        top: 6rem;
+        width: 400px;
+
+
+    }
+}

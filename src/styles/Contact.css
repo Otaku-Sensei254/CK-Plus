@@ -1,0 +1,71 @@
+.email-section{
+    position: relative;
+    border-radius: 10px;
+    background:rgba(255,255,255,0.1);
+    top: 5rem;
+    left:15rem;
+    width: 450px;
+}
+.email-section h2{
+    position: relative;
+    padding: 0 4px;
+    margin: 0 4px;
+   
+}
+.email-section form input,::placeholder, .email-section form textarea{
+    display: block;
+    color: white;
+    width: 20rem;
+    background:rgb(29, 170, 216);
+    padding: 10px 10px;
+    border: gold;
+    border-radius: 15px;
+    margin-bottom: 2px;
+    margin-top: 5px;
+    resize: none;
+    overflow: hidden;
+}
+.email-section form label{
+    margin: 0 4px;
+    padding: 0 2px;
+    color: rgb(217, 205, 32);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:normal;
+}
+.whatsapp_float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background: url('../Images/Whatsapp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.whatsapp-icon {
+    margin-top: 16px;
+}
+
+/* for mobile */
+@media screen and (max-width: 767px) {
+    .whatsapp-icon {
+        margin-top: 10px;
+    }
+
+    .whatsapp_float {
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        right: 10px;
+        font-size: 22px;
+    }
+}
